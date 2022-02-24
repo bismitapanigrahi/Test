@@ -1,0 +1,54 @@
+Create repository in gitHub 
+
+cmd from the project folder location
+
+remove the existing .git file if any :- rd .git /S/Q
+
+Initialising existing project with git repo :- git init 
+
+creating a branch
+
+adding files to git project :- git add . 
+
+commit operation :- git commit -m "message"
+git remote add origin master https://(repository link)
+
+push the changes :- git push -u origin master
+
+pull the changes
+
+how to clone the repo
+
+create new project in git 
+
+--------------------------------------------------------------------------------------------------------------------------
+https://rubygarage.org/blog/most-basic-git-commands-with-examples
+
+using git bash commands:-
+configuration :- git config --global user .name " "
+		git config --global user .email " " 
+
+to turn on code highlight (color output) :- git config --global color.ui true 
+
+configuration list :- git config --list 
+
+to go to a directory :- cd path (copy location and paste)
+
+initialise git :- git init 
+
+adding remote repository :- git remote add origin https:// (paste ur gitHub repository link) 
+
+to check status :- git status 
+
+to add all the files into git :- git add . 
+to add single file name :- git add (file name) or git add file1 file 2 file 3... (to add multiple files)
+to add all updated files from all directories :- git add --all or git add -A
+
+to remove files from the staging area :- git rm --cached (file name) or git reset (file name)  // reset is the opposite of add
+
+to unstage a file :- rm 'file name'
+
+commiting a file to the local repository :- git commit -m "message" //-m stands for message
+
+add modified files to the staging are and commit them :- git commit -a -m "message" //-a stands for add
+
