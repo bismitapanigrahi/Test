@@ -6,7 +6,7 @@ remove the existing .git file if any :- rd .git /S/Q
 
 Initialising existing project with git repo :- git init 
 
-creating a branch
+creating a branch :- 
 
 adding files to git project :- git add . 
 
@@ -15,9 +15,9 @@ git remote add origin master https://(repository link)
 
 push the changes :- git push -u origin master
 
-pull the changes
+pull the changes :- git pull 
 
-how to clone the repo
+how to clone the repo :- git clone (paste repository link)
 
 create new project in git 
 
@@ -51,4 +51,13 @@ to unstage a file :- rm 'file name'
 commiting a file to the local repository :- git commit -m "message" //-m stands for message
 
 add modified files to the staging are and commit them :- git commit -a -m "message" //-a stands for add
+
+how to clone the repo :- git clone (paste repository link)
+
+pull the changes to the local project :- git pull 
+
+to merge a branch :- git merge (branch name)
+
+before deleting a branch change the branch as branch can't be deleted by being in the same branch
+to delete a branch :- git branch -d (branch name)
 
