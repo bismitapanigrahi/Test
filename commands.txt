@@ -6,7 +6,7 @@ remove the existing .git file if any :- rd .git /S/Q
 
 Initialising existing project with git repo :- git init 
 
-git remote add origin master https://(repository link)
+git remote add origin https://(repository link)
 
 creating a branch :- 
 
